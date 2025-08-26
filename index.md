@@ -2,122 +2,38 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Seminario Fundamentos de Cómputo Musical
+Imparte Dr. Hugo Solís García
 
-[Clase 01](./docs/clase01.md).
+El objetivo de esta clase es presentar la aplicación de herramientas de cómputo y de programación orientados a la representación, generación, procesamiento y análisis de información musical; el análisis, síntesis y generación de sonido; la ejecución interactiva, el análisis y la composición musical; la notación musical. 
 
-There should be whitespace between paragraphs.
+## Avisos importantes
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
+> El horario de la clase se cambia  a miércoles de 16h a 19h.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Se mantiene la modalidad online
+>
+>Para tener una **constancia** de participación emitida por el Programa de Maestría y Doctorado en Música, es necesario asistir por lo menos al 80% de las sesiones. La constancia esta disponible para cualquier participante que cumpla este criterio (independientemente de su estatus como estudiante).
 
-### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Sesiones
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
+| Notas        | Fecha          | Modalidad |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+| 1. [Bienvenida e introducción](./docs/clase01.md) | 11 Agosto | Remota |
+| 2. [Introducción a funciones](./docs/clase02.md) | 18 Agosto | Remota  |
+| 3. [Sesión 3](./docs/clase03.md) | 27 Agosto | Remota  |
 
 
-### Definition lists can be used with HTML syntax.
+[Bibliografía](./docs/bibliografia.md)
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## Grabaciones de las sesiones
+ 
+| Link        | Año          | 
+|:-------------|:------------------|:------|
+| 1. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QFrg4aIW4kjvXP1nwzZ9ddv" target="_blank">Curso 2022</a> | 2022 | 
+| 2. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QEV64F4tMetwRa8tKBYrM6Y" target="_blank">Curso 2023</a> | 2023 |
+| 3. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QG8YnkojB7Jqx7nDl0LcrGr" target="_blank">Curso 2024</a> | 2024 |
+| 4. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QE7YSEg_A0puKEIanOK_7wh" target="_blank">Curso 2025</a> | 2025 | 
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
-```
-The final element.
-```
