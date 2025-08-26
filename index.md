@@ -20,8 +20,8 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 
 | Notas        | Fecha          | Modalidad |
 |:-------------|:------------------|:------|
-| 1. [Bienvenida e introducción](./docs/clase01.md) | 11 Agosto | Remota |
-| 2. [Introducción a funciones](./docs/clase02.md) | 18 Agosto | Remota  |
+| 1. [Bienvenida e introducción a variables](./docs/clase01.md) | 11 Agosto | Remota |
+| 2. [Funciones, arreglos e iteraciones](./docs/clase02.md) | 18 Agosto | Remota  |
 | 3. [Sesión 3](./docs/clase03.md) | 27 Agosto | Remota  |
 
 
