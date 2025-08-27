@@ -1,4 +1,4 @@
-# Sesión 2: Funciones, freciencias y protocolo MIDI
+# Sesión 2: Funciones, arreglos, iteraciones y MIDI
 __Lunes 18 de Agosto, 2025__  
 __Lugar: Zoom__
 
