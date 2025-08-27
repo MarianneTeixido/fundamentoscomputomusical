@@ -8,8 +8,7 @@ El objetivo de este sitio es documentar el contenido de las clases, procesos, tr
 
 ## Despliegue local del sitio 
 Este proyecto utiliza **Jekyll** y el tema **Minimal** de GitHub Pages.  
-Sigue estos pasos para verlo en tu máquina **antes de hacer deploy**.
-
+Sigue estos pasos para verlo en tu máquina.
 
 ### 1. Requisitos
 
@@ -43,7 +42,7 @@ gem install jekyll bundler
 
 ``` bash
 git clone git@github.com:MarianneTeixido/fundamentoscomputomusical.git 
-cd mi-clase
+cd fundamentoscomputomusical
 ```
 
 ## 3. Instala las dependencias del proyecto
