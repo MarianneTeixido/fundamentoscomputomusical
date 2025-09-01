@@ -9,7 +9,7 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 
 ## Avisos importantes
 
-> El horario de la clase se cambia  a miércoles de 16h a 19h.
+> El horario de la clase: 8h a 11h.
 >
 > Se mantiene la modalidad online
 >
@@ -35,5 +35,7 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 | 2. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QEV64F4tMetwRa8tKBYrM6Y" target="_blank">Curso 2023</a> | 2023 |
 | 3. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QG8YnkojB7Jqx7nDl0LcrGr" target="_blank">Curso 2024</a> | 2024 |
 | 4. <a href="https://www.youtube.com/playlist?list=PL7lm0VTw8-QE7YSEg_A0puKEIanOK_7wh" target="_blank">Curso 2025</a> | 2025 | 
+
+
 
 
