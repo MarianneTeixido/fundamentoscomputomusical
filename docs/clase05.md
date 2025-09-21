@@ -1,12 +1,7 @@
-# Sesion 5 
 
-¡Claro! Aquí tienes un resumen detallado de la clase, con fragmentos de código integrados en cada sección, listo para publicar en un blog.
+# **Sesion 5**
 
----
-
-### **Resumen de la Clase: Programación en SuperCollider - Sesión 4**
-
-#### **Temas Revisados**
+## **Temas Revisados**
 En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códigos como pretexto para profundizar en conceptos clave de SuperCollider. Los temas centrales fueron:
 
 1.  **Revisión de Tareas (Composición Estocástica y Melodías):**
@@ -33,7 +28,7 @@ En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códig
     *   **Rutinas Paralelas:** Cómo ejecutar múltiples rutinas simultáneamente para crear capas o secciones independientes en una composición.
     *   **Manejo de Amplitud:** Prevención de clipping (distorsión por exceder 1.0) al sumar señales, dividiendo la amplitud total entre el número de señales (ej: `amp / 3`).
 
-#### **Ejercicios Prácticos Revisados (Con Fragmentos de Código)**
+## **Ejercicios Prácticos Revisados (Con Fragmentos de Código)**
 Los estudiantes presentaron una variedad de ejercicios. Aquí se muestran fragmentos clave:
 
 1.  **Andrés: Composición Modal con Múltiples Capas**
@@ -117,12 +112,12 @@ Los estudiantes presentaron una variedad de ejercicios. Aquí se muestran fragme
     Synth(\glissando, [\freqInicio, 100, \freqFin, 1000, \dur, 5, \pan, -1]);
     ```
 
-#### **Recursos y Materiales Mencionados**
+## **Recursos y Materiales Mencionados**
 *   **Documentación de SuperCollider:** Se enfatizó el uso de `Ctrl+D` (o `Cmd+D`) sobre cualquier clase o método para acceder a su documentación oficial. Especialmente útil para `Env`, `Pan2`, `Line`, `collect`, `flatten`.
 *   **Libro de Referencia:** "The SuperCollider Book" (MIT Press) para teoría y ejemplos avanzados.
 *   **Compositor de Referencia:** **Conlon Nancarrow**, conocido por sus estudios para piano mecánico que exploran politempos y polirritmos complejos mediante la superposición de capas a diferentes velocidades. [Documental recomendado](https://www.youtube.com/watch?v=3g1P3j1932s).
 
-#### **Tarea Asignada: "Estudio à la Nancarrow"**
+## **Tarea Asignada: "Estudio a la Nancarrow"**
 Basándose en los conceptos vistos, la tarea es crear una composición que explore politempos y timbres, inspirándose en el trabajo de Conlon Nancarrow.
 
 **Instrucciones Detalladas:**
