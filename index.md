@@ -23,7 +23,8 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 | 1. [Bienvenida e introducción a variables](./docs/clase01.md) | 11 Agosto | Remota |
 | 2. [Funciones, arreglos e iteraciones](./docs/clase02.md) | 18 Agosto | Remota  |
 | 3. [Rutinas y control de tiempo](./docs/clase03.md) | 27 Agosto | Remota  |
-| 4. [SynthDef](./docs/clase04.md) | | Remota |
+| 4. [SynthDef](./docs/clase04.md) | 1 Septiembre | Remota |
+| 5. [Sesion 5](./docs/clase05.md) | 8 Septiembre | Remota | 
 
 
 [Bibliografía](./docs/bibliografia.md)

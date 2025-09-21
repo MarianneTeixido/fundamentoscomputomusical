@@ -26,7 +26,7 @@ El objetivo final de esta introducción es construir una **loopera** (grabadora/
 
 ## Recursos de la sesión
 En el siguiente enlace podrás descargar el [archivo de SuperCollider Sesión 1 (.scd)](../assets/scd/sesion01.scd)  
-<a href="https://www.youtube.com/watch?v=Iwg4BD2UPfg&list=PL7lm0VTw8-QE7YSEg_A0puKEIanOK_7wh&index=3&ab_channel=HugoSol%C3%ADs" target="_blank">Grabación de la Sesión 1</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Iwg4BD2UPfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Recursos adicionales
 <a href="https://doc.sccode.org/Tutorials/Getting-Started/02-First-Steps.html" target="_blank">SuperCollider | Primeros Pasos</a>  

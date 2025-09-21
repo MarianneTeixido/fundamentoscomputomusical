@@ -123,7 +123,7 @@ En esta sesión, profundizamos en conceptos avanzados de programación dentro de
 
 #### **Recursos y Materiales Mencionados**
 *   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 4 (.scd)](../assets/scd/sesion04.scd)  
-*   **Grabación de la sesión 4** Disponible en este [link](https://www.youtube.com/watch?v=juHjeTlVfFs&list=PL7lm0VTw8-QE7YSEg_A0puKEIanOK_7wh&index=2)
+*   **Grabación de la sesión 4** Disponible en este <iframe width="560" height="315" src="https://www.youtube.com/embed/juHjeTlVfFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 *   **Libros de Referencia:**
     *   The SuperCollider Book (2nd ed.) editado por Scott Wilson, David Cottle y Nick Colllins disponible en este [link](../assets/pdf/The-supercollider-book-second-edition.pdf)
 *   **Ayuda Interna de SuperCollider:** Recuerda que puedes hacer uso de `Ctrl+D` (o `Cmd+D`) sobre cualquier clase o método para acceder a su documentación oficial. Especialmente útil para entender `SynthDef`, `SinOsc`, `EnvGen`, `Env.perc`.
