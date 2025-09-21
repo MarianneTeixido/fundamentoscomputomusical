@@ -1,4 +1,4 @@
-# **Sesion 4**
+# **Sesion 4 | SynthDef**
 
 ## **Temas Revisados**
 En esta sesión, profundizamos en conceptos avanzados de programación dentro de SuperCollider, con un enfoque en la creación y manipulación de sonidos. Los temas centrales fueron:
