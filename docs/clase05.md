@@ -10,7 +10,7 @@ En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códig
 
 2.  **Arreglos y Métodos de Iteración Avanzados (`collect`, `do`):**
     *   Uso de `collect` para transformar arreglos de manera concisa, aplicando una función a cada elemento y devolviendo un nuevo arreglo.
-    *   **Azúcar sintáctico (`{arg item; item * 2}` vs `{ |item| item * 2 }` vs `_. * 2`):** Se introdujo la notación `_` para escribir funciones de iteración de forma más compacta.
+    *   **Sintáxis (`{arg item; item * 2}` vs `{ |item| item * 2 }` vs `_. * 2`):** Se introdujo la notación `|` para escribir funciones de iteración de forma más compacta.
     *   **`flatten`:** Método para "aplanar" arreglos anidados (ej: convertir `[[1,2], [3,4]]` en `[1,2,3,4]`).
 
 3.  **Manipulación de Señales Multicanal:**
@@ -32,90 +32,49 @@ En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códig
 Los estudiantes presentaron una variedad de ejercicios. Aquí se muestran fragmentos clave:
 
 1.  **Andrés: Composición Modal con Múltiples Capas**
-    *   Uso de arreglos para definir escalas modales y rutinas paralelas para bajos y melodías.
-    ```supercollider
-    // Definición de un modo (Ej: Dorico)
-    ~modo = [0, 2, 3, 5, 7, 9, 10]; // Grados de la escala
-    ~notas_base = 36 + (12 * [0,1,2,3,4,5,6]); // Notas base en diferentes octavas
-    ~acordes = ~notas_base.collect({ |nota_base| ~modo + nota_base }); // Generar acordes para cada octava
-    ~acordes = ~acordes.flatten; // Aplanar para tener un array de notas individuales
+    *   Uso de arreglos para definir escalas modales y técnicas como scramble para aleatoriedad.     
 
-    // Rutina para una línea de bajo
-    ~rutina_bajos = Routine({
-        inf.do({
-            var nota = ~acordes.choose; // Elige una nota aleatoria del array
-            var duracion = rrand(0.5, 2.0);
-            Synth(\bajo, [\freq, nota.midicps, \dur, duracion]);
-            duracion.wait;
-        });
-    }).play;
-    ```
+[Código disponible aquí](../assets/scd/tareas/tarea3Andres.scd)
 
 2.  **Constanza: Melodía Simple con Envolvente**
-    *   Implementación de una melodía conocida ("Cumpleaños Feliz") con un `SynthDef` básico.
-    ```supercollider
-    (
-    SynthDef(\organo, { |freq=440, amp=0.5, dur=0.5|
-        var sig, env;
-        env = EnvGen.kr(Env.perc(0.01, dur), doneAction: 2);
-        sig = SinOsc.ar(freq, 0, amp) * env;
-        Out.ar(0, sig ! 2); // Duplica la señal mono a estéreo
-    }).add;
-    )
+    *   Generación de patrones melódicos y rítmicos usando Routine y bucles do.  
 
-    // Melodía: "Cumpleaños Feliz" (notas MIDI)
-    ~melodia = [60, 60, 62, 60, 65, 64, 60, 60, 62, 60, 67, 65];
-    ~duraciones = [0.4, 0.4, 0.8, 0.4, 0.4, 1, 0.4, 0.4, 0.8, 0.4, 0.4, 1];
-
-    // Rutina que reproduce la melodía
-    Routine({
-        ~melodia.size.do({ |i|
-            Synth(\organo, [\freq, ~melodia[i].midicps, \dur, ~duraciones[i]]);
-            ~duraciones[i].wait;
-        });
-    }).play;
-    ```
+[Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
 
 3.  **Diego: Exploración Psicoacústica (Percepción del Pitch)**
     *   Investigación de cuántos periodos de una onda son necesarios para percibir claramente su altura.
-    ```supercollider
-    (
-    SynthDef(\pitchexperiment, { |freq=440, periodos=10, amp=0.1|
-        var periodo, ataque, duracion_total, sig, env;
-        periodo = 1 / freq; // Duración de un periodo en segundos
-        ataque = periodo * periodos; // Tiempo de ataque basado en el nº de periodos
-        duracion_total = ataque * 2; // Duración total del sonido
-        env = EnvGen.kr(Env.triangle(duracion_total, amp), doneAction: 2);
-        sig = SinOsc.ar(freq, 0, env);
-        Out.ar(0, sig);
-    }).add;
-    )
-    // Probar con diferente número de periodos
-    Synth(\pitchexperiment, [\freq, 440, \periodos, 2]); // ¿Se percibe la altura?
-    Synth(\pitchexperiment, [\freq, 440, \periodos, 16]); // ¿Se percibe más claramente?
-    ```
+
+[Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
+
 
 4.  **Malitzin: Glissandos y Batimentos con `Line.kr`**
     *   Uso de `Line.kr` para crear cambios progresivos (glissandos) de frecuencia y amplitud.
-    ```supercollider
-    (
-    SynthDef(\glissando, { |freqInicio=200, freqFin=800, dur=3, amp=0.2, pan=0|
-        var frec, sig, env;
-        frec = Line.kr(freqInicio, freqFin, dur); // Controla el glissando
-        env = EnvGen.kr(Env.perc(0.1, dur), doneAction: 2);
-        sig = SinOsc.ar(frec, 0, amp * env);
-        sig = Pan2.ar(sig, pan); // Panea la señal
-        Out.ar(0, sig);
-    }).add;
-    )
-    // Ejecutar el glissando
-    Synth(\glissando, [\freqInicio, 100, \freqFin, 1000, \dur, 5, \pan, -1]);
-    ```
 
-## **Recursos y Materiales Mencionados**
-*   **Documentación de SuperCollider:** Se enfatizó el uso de `Ctrl+D` (o `Cmd+D`) sobre cualquier clase o método para acceder a su documentación oficial. Especialmente útil para `Env`, `Pan2`, `Line`, `collect`, `flatten`.
-*   **Libro de Referencia:** "The SuperCollider Book" (MIT Press) para teoría y ejemplos avanzados.
-*   **Compositor de Referencia:** **Conlon Nancarrow**, conocido por sus estudios para piano mecánico que exploran politempos y polirritmos complejos mediante la superposición de capas a diferentes velocidades. [Documental recomendado](https://www.youtube.com/watch?v=3g1P3j1932s).
+[Código disponible aquí](../assets/scd/tareas/tarea3Ana.scd)
+
+5.  **Nohemí: Señales multicanal y paneo**
+    *   Expansión de señales mono a estéreo con !2 y paneo con Pan2.
+
+[Código disponible aquí](../assets/scd/tareas/tarea3Nohemi.scd)
+
+
+## **Recursos y Materiales**
+*   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 5 (.scd)](../assets/scd/sesion05.scd)  
+*   **Grabación de la sesión 4** 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zE1JMhwzQs0?si=-831SXpRT7jImqXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*   **Libros de Referencia:**
+    *   The SuperCollider Book (2nd ed.) editado por Scott Wilson, David Cottle y Nick Colllins disponible en este [link](../assets/pdf/The-supercollider-book-second-edition.pdf)
+
+*   **Compositor de Referencia:** **Conlon Nancarrow**, conocido por sus estudios para piano mecánico que exploran politempos y polirritmos complejos mediante la superposición de capas a diferentes velocidades. Documentales recomendados: 
+
+1.    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f2gVhBxwRqg?si=ow3y85AE6wr44xts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+2. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4AsT-wIxte0?si=YUVfeRhBlsdBoH0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## **Tarea Asignada: "Estudio a la Nancarrow"**
 Basándose en los conceptos vistos, la tarea es crear una composición que explore politempos y timbres, inspirándose en el trabajo de Conlon Nancarrow.
