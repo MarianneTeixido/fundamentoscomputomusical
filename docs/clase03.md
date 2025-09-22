@@ -47,7 +47,8 @@ Los estudiantes compartieron sus avances en la tarea de la semana, mostrando eje
 *   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 3 (.scd)](../assets/scd/sesion03.scd)  
 *   **Documentación de SuperCollider:** No duden en utilizar la ayuda interna (`Ctrl+D`) para entender métodos como `.do`, `.choose`, `.collect`, etc.
 *   **ChatGPT:** Herramienta de apoyo para resolver dudas específicas de sintaxis y descubrir métodos como `select`, `collect`, siempre que se use para comprender y no solo para copiar código.
-*   **Grabación de la sesión 3** Disponible en este <iframe width="560" height="315" src="https://www.youtube.com/embed/DxLyC3oydzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*   **Grabación de la sesión 3**  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DxLyC3oydzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### **Tarea Asignada**
 Basándose en los conceptos vistos, especialmente en el uso de **rutinas** y el control del **tiempo**, la tarea para la siguiente sesión es:

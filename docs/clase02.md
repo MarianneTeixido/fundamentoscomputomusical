@@ -103,6 +103,9 @@ Para cada nota, imprimir algo como: `"Nota [nota+60]: [dinámica aleatoria]"`, d
 ## Recursos de la sesión {#recursos-sesion}
 
 [Archivo SuperCollider Sesión 2 (.scd)](../assets/scd/sesion02.scd)  
+
+*   **Grabación de la sesión 2**  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ESSVsGFGxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 ## Recursos adicionales {#recursos-adicionales}
