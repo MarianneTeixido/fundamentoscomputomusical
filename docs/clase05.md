@@ -54,7 +54,7 @@ En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códig
 
 ## **Recursos y Materiales**
 *   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 5 (.scd)](../assets/scd/sesion05.scd)  
-*   **Grabación de la sesión 4** 
+*   **Grabación de la sesión 5** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zE1JMhwzQs0?si=-831SXpRT7jImqXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
