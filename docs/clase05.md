@@ -1,5 +1,5 @@
 
-# **Sesion 5**
+# **Sesion 5 | Arreglos y Métodos de Iteración Avanzados**
 
 ## **Temas Revisados**
 En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códigos como pretexto para profundizar en conceptos clave de SuperCollider. Los temas centrales fueron:
