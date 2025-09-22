@@ -2,7 +2,7 @@
 # **Sesion 5 | Arreglos y Métodos de Iteración Avanzados**
 
 ## **Temas Revisados**
-En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códigos como pretexto para profundizar en conceptos clave de SuperCollider. Los temas centrales fueron:
+En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códigos como pretexto para profundizar en conceptos clave de SuperCollider. Los temas centrales fueron:  
 
 1.  **Revisión de Tareas (Composición Estocástica y Melodías):**
     *   Se analizaron implementaciones de composiciones que utilizaban rutinas, `SynthDefs` personalizados y estructuras de control para generar materiales sonoros aleatorios o melódicos.
@@ -28,34 +28,28 @@ En esta sesión, revisamos las tareas de los estudiantes y utilizamos sus códig
     *   **Rutinas Paralelas:** Cómo ejecutar múltiples rutinas simultáneamente para crear capas o secciones independientes en una composición.
     *   **Manejo de Amplitud:** Prevención de clipping (distorsión por exceder 1.0) al sumar señales, dividiendo la amplitud total entre el número de señales (ej: `amp / 3`).
 
-## **Ejercicios Prácticos Revisados (Con Fragmentos de Código)**
-Los estudiantes presentaron una variedad de ejercicios. Aquí se muestran fragmentos clave:
+## **Ejercicios Prácticos Revisados**  
 
 1.  **Andrés: Composición Modal con Múltiples Capas**
-    *   Uso de arreglos para definir escalas modales y técnicas como scramble para aleatoriedad.     
-
-[Código disponible aquí](../assets/scd/tareas/tarea3Andres.scd)
+    *   Uso de arreglos para definir escalas modales y técnicas como scramble para aleatoriedad.  
+    *   [Código disponible aquí](../assets/scd/tareas/tarea3Andres.scd)
 
 2.  **Constanza: Melodía Simple con Envolvente**
     *   Generación de patrones melódicos y rítmicos usando Routine y bucles do.  
-
-[Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
+    *   [Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
 
 3.  **Diego: Exploración Psicoacústica (Percepción del Pitch)**
     *   Investigación de cuántos periodos de una onda son necesarios para percibir claramente su altura.
-
-[Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
+    *   [Código disponible aquí](../assets/scd/tareas/tarea3Constanza.scd)
 
 
 4.  **Malitzin: Glissandos y Batimentos con `Line.kr`**
     *   Uso de `Line.kr` para crear cambios progresivos (glissandos) de frecuencia y amplitud.
-
-[Código disponible aquí](../assets/scd/tareas/tarea3Ana.scd)
+    *   [Código disponible aquí](../assets/scd/tareas/tarea3Ana.scd)
 
 5.  **Nohemí: Señales multicanal y paneo**
     *   Expansión de señales mono a estéreo con !2 y paneo con Pan2.
-
-[Código disponible aquí](../assets/scd/tareas/tarea3Nohemi.scd)
+    *   [Código disponible aquí](../assets/scd/tareas/tarea3Nohemi.scd)
 
 
 ## **Recursos y Materiales**
@@ -69,12 +63,13 @@ Los estudiantes presentaron una variedad de ejercicios. Aquí se muestran fragme
 
 *   **Compositor de Referencia:** **Conlon Nancarrow**, conocido por sus estudios para piano mecánico que exploran politempos y polirritmos complejos mediante la superposición de capas a diferentes velocidades. Documentales recomendados: 
 
-1.    
+ 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f2gVhBxwRqg?si=ow3y85AE6wr44xts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-2. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4AsT-wIxte0?si=YUVfeRhBlsdBoH0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4AsT-wIxte0?si=YUVfeRhBlsdBoH0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+<br>
 
 ## **Tarea Asignada: "Estudio a la Nancarrow"**
 Basándose en los conceptos vistos, la tarea es crear una composición que explore politempos y timbres, inspirándose en el trabajo de Conlon Nancarrow.
