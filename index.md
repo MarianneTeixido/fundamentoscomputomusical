@@ -24,7 +24,9 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 | 2. [Funciones, arreglos e iteraciones](./docs/clase02.md) | 18 Agosto | Remota  |
 | 3. [Rutinas y control de tiempo](./docs/clase03.md) | 27 Agosto | Remota  |
 | 4. [SynthDef](./docs/clase04.md) | 1 Septiembre | Remota |
-| 5. [Arreglos y métodos de iteración avanzados](./docs/clase05.md) | 8 Septiembre | Remota | 
+| 5. [Arreglos y métodos de iteración avanzados](./docs/clase05.md) | 8 Septiembre | Remota |    
+| 6. [Repaso](./docs/clase06.md) | 22 Septiembre | Remota | 
+
 
 
 [Bibliografía](./docs/bibliografia.md)
