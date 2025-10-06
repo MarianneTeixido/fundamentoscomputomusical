@@ -61,7 +61,7 @@ En esta sesión de repaso general, analizamos en profundidad las tareas de los e
 *   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 6 (.scd)](../assets/scd/sesion06.scd)  
 *   **Grabación de la sesión 6**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nDDNSrGeP1M?si=B_85S0TrdmdFBzcn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nDDNSrGeP1M?si=TGdwfIxeg6Uhme83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <br>
