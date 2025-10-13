@@ -26,7 +26,8 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 | 4. [SynthDef](./docs/clase04.md) | 1 Septiembre | Remota |
 | 5. [Arreglos y métodos de iteración avanzados](./docs/clase05.md) | 8 Septiembre | Remota |    
 | 6. [Repaso](./docs/clase06.md) | 22 Septiembre | Remota | 
-| 6. [Fundamentos de Audio Digital y Análisis Espectral](./docs/clase07.md) | 29 Septiembre | Remota | 
+| 7. [Fundamentos de Audio Digital y Análisis Espectral](./docs/clase07.md) | 29 Septiembre | Remota | 
+| 8. [Síntesis Espectral y Procesamiento Espacial](./docs/clase08.md) | 6 Octubre | Remota |
 
 
 
