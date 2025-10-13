@@ -48,7 +48,7 @@ Crea una pieza breve utilizando únicamente sonidos de campana sintetizados:
 
 ### **Material de la Clase**
 * **Grabación de la sesión 8**: [Enlace al video](https://youtu.be/NNnCq4CaltI?si=UWCC4mEZtGzOItAY)
-* *   **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 8 (.scd)](../assets/scd/sesion08.scd)  
+* **Repositorio de la Clase:** [Archivo de SuperCollider Sesión 8 (.scd)](../assets/scd/sesion08.scd)  
 * **Tablas de parámetros**: Referencias de modelos de Risset
 ![Imagen ilustrativa de síntesis espectral y espacial](../assets/img/risset.jpg)
 ### **Lecturas Recomendadas**
