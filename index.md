@@ -28,6 +28,7 @@ El objetivo de esta clase es presentar la aplicación de herramientas de cómput
 | 6. [Repaso](./docs/clase06.md) | 22 Septiembre | Remota | 
 | 7. [Fundamentos de Audio Digital y Análisis Espectral](./docs/clase07.md) | 29 Septiembre | Remota | 
 | 8. [Síntesis Espectral y Procesamiento Espacial](./docs/clase08.md) | 6 Octubre | Remota |
+| 9. [Programación de un Entrenador Auditivo](./docs/clase09.md) | 13 Octubre | Remota |
 
 
 
